@@ -6,15 +6,15 @@
 
     <xacro:property name="chassis_length" value="0.300"/>
     <xacro:property name="chassis_width" value="0.175"/>
-    <xacro:property name="chassis_height" value="0.90"/>
+    <xacro:property name="chassis_height" value="0.090"/>
     <xacro:property name="chassis_mass" value="1.5"/>
-    <xacro:property name="wheel_radius" value="0.070"/>
+    <xacro:property name="wheel_radius" value="0.035"/>
     <xacro:property name="wheel_thickness" value="0.026"/>
     <xacro:property name="wheel_mass" value="0.05"/>
-    <xacro:property name="wheel_offset_x" value="0.226"/>
-    <xacro:property name="wheel_offset_y" value="0.1485"/>
-    <xacro:property name="wheel_offset_z" value="0.01"/>
-    <xacro:property name="caster_wheel_radius" value="0.01"/>
+    <xacro:property name="wheel_offset_x" value="0.200"/>
+    <xacro:property name="wheel_offset_y" value="0.1005"/>
+    <xacro:property name="wheel_offset_z" value="-0.035"/>
+    <xacro:property name="caster_wheel_radius" value="0.025"/>
     <xacro:property name="caster_wheel_mass" value="0.01"/>
     <xacro:property name="caster_wheel_offset_x" value="0.075"/>
     <xacro:property name="caster_wheel_offset_z" value="${wheel_offset_z - wheel_radius + caster_wheel_radius}"/>
